@@ -8,8 +8,12 @@ class Stack {
   }
 //tambah data
   push(x) {
-    this.size += 1
-    return this.data.push(x);
+    if (this.max_size >= this.size){
+      this.size += 1
+      return this.data.push(x);
+    } else {
+      return "Stack is Already full"
+    }
   }
 //ngilangin data
   pop() {
