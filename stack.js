@@ -25,7 +25,7 @@ class Stack {
         return this.peek()
     }
   }
-}
+} 
 
 let my_stack = new Stack()
 
