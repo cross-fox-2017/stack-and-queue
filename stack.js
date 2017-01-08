@@ -13,7 +13,7 @@ class Stack {
     return this.arr.pop();
   }
   peek() {
-    return this.arr.shift();
+    return this.arr[this.arr.length-1];
   }
   isEmpty() {
     if(this.arr.length === 0 )
@@ -48,6 +48,6 @@ console.log(my_stack.pop());
 console.log(my_stack.pop());
 console.log(my_stack.pop());
 
-console.log(my_stack.peek());
+console.log(my_stack.peek());//posisi atas
 console.log(my_stack.print());
 console.log(`The stack is empty? ${my_stack.isEmpty()}`);
