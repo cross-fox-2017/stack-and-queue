@@ -2,7 +2,7 @@
 
 class Queue {
   constructor() {
-  	this.data	   = []
+  	this.data	     = []
     this.max_size  = 5
   }
 
