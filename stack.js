@@ -32,6 +32,7 @@ let resultStack = new Stack();
     resultStack.push("React.js");
     resultStack.push("Html & CSS");
 
+    // resultStack.pop()
     console.log(resultStack.isEmpty())
     console.log(resultStack.pop());
     console.log(resultStack.peek());
